@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{f6abe6ec-785d-43c2-b2fd-7e0b6549d7e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\PolRead">
+      <UniqueIdentifier>{4ea4e98a-6cbe-45d6-a582-7282f357bb4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\GLFW">
+      <UniqueIdentifier>{a4f16624-f061-4330-ba91-f3de3bdde2bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\glPng">
+      <UniqueIdentifier>{0c839cee-3fb2-4fe3-974e-2a4a265b20b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\gl3w">
+      <UniqueIdentifier>{9e6f391e-5b8b-479d-b522-8f7cc6baf6c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\ttfText">
+      <UniqueIdentifier>{d2eee3f5-1922-4a5c-8c00-4b85fff97d8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Music">
+      <UniqueIdentifier>{04913e51-25b8-4437-8fe6-3349cce72ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{de39bc10-f612-4370-b466-91a66c1234d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Release">
+      <UniqueIdentifier>{548150bf-6840-4e93-a1ba-988365ccb7f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Debug">
+      <UniqueIdentifier>{6f67a950-a9b3-43e8-8ecd-51f40a0c2fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\glm">
+      <UniqueIdentifier>{c28fc08e-8f02-41a6-9a8c-c2724dbf2bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{0ed8a93a-bb2b-490d-b553-4a31aff2d57e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{c1d19f4e-b125-4d90-ad89-588531e8f6f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLSL">
+      <UniqueIdentifier>{6b09c80a-6e55-4e44-92f6-1300f702e4cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shader">
+      <UniqueIdentifier>{029c7bc4-e8a7-4eef-8ec1-2c5c878ad91b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Look">
+      <UniqueIdentifier>{cb261f09-27f5-4dbe-bc61-7d6802b1eeb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\ModelSys">
+      <UniqueIdentifier>{c79dea12-3d91-460d-9780-68aa60598777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\ImageSys">
+      <UniqueIdentifier>{39508257-0584-4d24-8b41-81cf03887fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shadow">
+      <UniqueIdentifier>{535cc1f1-e438-4caa-8abf-cd45df4f7aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Tween">
+      <UniqueIdentifier>{56669549-e49b-49f2-852b-c05b4a6459e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{aca99bb0-d230-4cf1-a04a-739101ebeb51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{f5aae92c-01be-4aee-a9b5-8bd81b03cf6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy">
+      <UniqueIdentifier>{618dfb18-dd70-41e7-a545-3f1392c3c6d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HitChk">
+      <UniqueIdentifier>{d1dce995-eb39-4b6d-ac7a-4ccc3ba690bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Explosion">
+      <UniqueIdentifier>{21529690-f3b9-48c0-8051-7ed020bb01c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\GameMain">
+      <UniqueIdentifier>{c15de4b2-8d94-41d0-869f-e08dca274701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Ending">
+      <UniqueIdentifier>{20623e92-9be2-4384-abac-289995f3148b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Select">
+      <UniqueIdentifier>{8400aae0-486e-470a-ad5e-560fad19c017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameParam">
+      <UniqueIdentifier>{3a3d2a5a-9c15-40b4-84f1-78b9a5bfb089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FadeInOut">
+      <UniqueIdentifier>{b00753fb-2d60-467f-88a1-da04e5afd1b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThreadManager">
+      <UniqueIdentifier>{c20c9cb5-4adf-4e4e-b36c-8030a61b1d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Title">
+      <UniqueIdentifier>{71bdd424-6225-4c32-9e9d-5db4b55399bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlockDivide">
+      <UniqueIdentifier>{864bae03-8230-4480-86cf-4a3bf083b70b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Victory">
+      <UniqueIdentifier>{2487cd7e-3e49-484f-b6be-0dd3186df1d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bullet">
+      <UniqueIdentifier>{a16c2727-c60c-414e-86b8-24c9b5560c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TargetCircle">
+      <UniqueIdentifier>{784541bd-5a9a-4e47-b05c-032b1ee7b0cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Graphics\GLFW\glfw3.h">
+      <Filter>Graphics\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\GLFW\glfw3native.h">
+      <Filter>Graphics\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glPng\glpng.h">
+      <Filter>Graphics\glPng</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\PolRead\PolRead.h">
+      <Filter>Graphics\PolRead</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Bmp.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\OpenGL.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Png.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Texture.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Tga.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Vec.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\GLSprite.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\gl3w\gl3w.h">
+      <Filter>Graphics\gl3w</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\gl3w\glcorearb.h">
+      <Filter>Graphics\gl3w</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\gl3w\khrplatform.h">
+      <Filter>Graphics\gl3w</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\gl3w\gl.h">
+      <Filter>Graphics\gl3w</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\TextDisp\TtfText.h">
+      <Filter>Graphics\ttfText</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\common.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\exponential.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\ext.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\fwd.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\geometric.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\glm.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\integer.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\mat2x2.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\mat2x3.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\mat2x4.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\mat3x2.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\mat3x3.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\mat3x4.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\mat4x2.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\mat4x3.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\mat4x4.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\matrix.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\packing.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\trigonometric.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\vec2.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\vec3.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\vec4.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\glm\vector_relational.hpp">
+      <Filter>Graphics\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Music\MusicSys.h">
+      <Filter>Music</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\TextDisp\TtfSub.h">
+      <Filter>Graphics\ttfText</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\TextDisp\TtfSys.h">
+      <Filter>Graphics\ttfText</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Base.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainSys.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Shader\Shader.h">
+      <Filter>Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Look.h">
+      <Filter>Look</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\ImageSys.h">
+      <Filter>Graphics\ImageSys</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\ModelSys.h">
+      <Filter>Graphics\ModelSys</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\ShadowSys.h">
+      <Filter>Graphics\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Tween\TweenSys.h">
+      <Filter>Graphics\Tween</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Map.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Hitchk.h">
+      <Filter>HitChk</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Explosion.h">
+      <Filter>Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ExplosionSys.h">
+      <Filter>Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EndingSys.h">
+      <Filter>System\Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameMainSys.h">
+      <Filter>System\GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TitleSys.h">
+      <Filter>System\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SelectSys.h">
+      <Filter>System\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameParam.h">
+      <Filter>GameParam</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FadeInOut.h">
+      <Filter>FadeInOut</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ThreadManager.h">
+      <Filter>ThreadManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BlockDivide.h">
+      <Filter>BlockDivide</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Victory.h">
+      <Filter>Victory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EnemySys.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BulletSys.h">
+      <Filter>Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Bullet.h">
+      <Filter>Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TargetCircle.h">
+      <Filter>TargetCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TargetCircleSys.h">
+      <Filter>TargetCircle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Graphics\Bmp2.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\OpenGL.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Png.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Texture.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Tga2.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\PolRead\PolRead.cpp">
+      <Filter>Graphics\PolRead</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\GLSprite.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\gl3w\gl3w.c">
+      <Filter>Graphics\gl3w</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Music\MusicSys.cpp">
+      <Filter>Music</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\TextDisp\TtfText.cpp">
+      <Filter>Graphics\ttfText</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\TextDisp\TtfTextCommando.cpp">
+      <Filter>Graphics\ttfText</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\TextDisp\TtfSys.cpp">
+      <Filter>Graphics\ttfText</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainSys.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Shader\Shader.cpp">
+      <Filter>Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Look.cpp">
+      <Filter>Look</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\ImageSys.cpp">
+      <Filter>Graphics\ImageSys</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\ModelSys.cpp">
+      <Filter>Graphics\ModelSys</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\ShadowSys.cpp">
+      <Filter>Graphics\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Tween\TweenSys.cpp">
+      <Filter>Graphics\Tween</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Explosion.cpp">
+      <Filter>Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ExplosionSys.cpp">
+      <Filter>Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EndingSys.cpp">
+      <Filter>System\Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameMainSys.cpp">
+      <Filter>System\GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TitleSys.cpp">
+      <Filter>System\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameMainSys_Init.cpp">
+      <Filter>System\GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameMainSys_Main.cpp">
+      <Filter>System\GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SelectSys.cpp">
+      <Filter>System\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameParam.cpp">
+      <Filter>GameParam</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Hitchk.cpp">
+      <Filter>HitChk</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FadeInOut.cpp">
+      <Filter>FadeInOut</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ThreadManager.cpp">
+      <Filter>ThreadManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BlockDivide.cpp">
+      <Filter>BlockDivide</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Victory.cpp">
+      <Filter>Victory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EnemySys.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BulletSys.cpp">
+      <Filter>Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Bullet.cpp">
+      <Filter>Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TargetCircle.cpp">
+      <Filter>TargetCircle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TargetCircleSys.cpp">
+      <Filter>TargetCircle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Source\Graphics\glPng\Release\glpng.lib">
+      <Filter>Lib\Release</Filter>
+    </Library>
+    <Library Include="Source\Graphics\glPng\Debug\glpngd.lib">
+      <Filter>Lib\Debug</Filter>
+    </Library>
+    <Library Include="Source\Graphics\TextDisp\TtfText_r.lib">
+      <Filter>Lib\Release</Filter>
+    </Library>
+    <Library Include="Source\Graphics\TextDisp\TtfText_d.lib">
+      <Filter>Lib\Debug</Filter>
+    </Library>
+    <Library Include="Source\Graphics\GLFW\lib-vc2019\glfw3dll.lib">
+      <Filter>Lib\Debug</Filter>
+    </Library>
+    <Library Include="Source\Graphics\GLFW\lib-vc2019\glfw3.lib">
+      <Filter>Lib\Release</Filter>
+    </Library>
+    <Library Include="Source\Music\OGG\lib\libogg.lib">
+      <Filter>Lib\Debug</Filter>
+    </Library>
+    <Library Include="Source\Music\OGG\lib\libvorbis_static.lib">
+      <Filter>Lib\Debug</Filter>
+    </Library>
+    <Library Include="Source\Music\OGG\lib\libvorbisfile_static.lib">
+      <Filter>Lib\Debug</Filter>
+    </Library>
+    <Library Include="Source\Music\OpenAL\libs\Win64\alut.lib">
+      <Filter>Lib\Debug</Filter>
+    </Library>
+    <Library Include="Source\Music\OpenAL\libs\Win64\OpenAL32.lib">
+      <Filter>Lib\Debug</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Source\Graphics\glm\CMakeLists.txt">
+      <Filter>Graphics\glm</Filter>
+    </Text>
+    <Text Include="GLSL\Fsp.txt">
+      <Filter>GLSL</Filter>
+    </Text>
+    <Text Include="GLSL\Vsp.txt">
+      <Filter>GLSL</Filter>
+    </Text>
+    <Text Include="GLSL\SpriteFsp.txt">
+      <Filter>GLSL</Filter>
+    </Text>
+    <Text Include="GLSL\SpriteVsp.txt">
+      <Filter>GLSL</Filter>
+    </Text>
+    <Text Include="GLSL\ExplosionVsp.txt">
+      <Filter>GLSL</Filter>
+    </Text>
+    <Text Include="GLSL\ExplosionFsp.txt">
+      <Filter>GLSL</Filter>
+    </Text>
+    <Text Include="GLSL\BarFsp.txt">
+      <Filter>GLSL</Filter>
+    </Text>
+    <Text Include="GLSL\BarVsp.txt">
+      <Filter>GLSL</Filter>
+    </Text>
+    <Text Include="GLSL\WallFsp.txt">
+      <Filter>GLSL</Filter>
+    </Text>
+    <Text Include="GLSL\WallVsp.txt">
+      <Filter>GLSL</Filter>
+    </Text>
+    <Text Include="GLSL\FadeInOutFsp.txt">
+      <Filter>GLSL</Filter>
+    </Text>
+    <Text Include="GLSL\FadeInOutVsp.txt">
+      <Filter>GLSL</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

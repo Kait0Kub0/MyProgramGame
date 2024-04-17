@@ -1,0 +1,30 @@
+# TUNA Object Data Ver0.5
+# Data Count (v n c t p)
+4 0 0 4 2
+
+
+# Vertex Data (XYZ)
+-1,1,0
+1,1,0
+-1,-1,0
+1,-1,0
+
+
+# Normal Data (XYZ)
+0,0,1
+
+# Color Data (RGBA)
+1,1,1,1
+
+# Texture Data (UVorST)
+0,3
+3,3
+3,0
+0,0
+
+
+# Polygon Data (v:n:c:t)
+0,3,1 : 0,0,0 : 0,0,0 : 0,2,1
+0,2,3 : 0,0,0 : 0,0,0 : 0,3,2
+
+

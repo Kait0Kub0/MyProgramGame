@@ -1,0 +1,35 @@
+﻿// Flagment shader
+#version 460 compatibility
+
+// マルチテクスチャ
+uniform sampler2D   uMultiTexture0;
+//uniform sampler2D   uMultiTexture1;
+//uniform sampler2D   uMultiTexture2;
+//uniform sampler2D   uMultiTexture3;
+
+// カラーデータ
+uniform   vec4    uColor;
+
+// テクスチャ座標（補完処理された座標）
+in      vec2    vTexCoord;
+
+
+void main( void )
+{
+    // 色データ初期化
+    vec4 rgba = vec4(1,1,1,1);
+    
+    // テクスチャ適応チェック
+    if( uMultiTexture0 != -1)
+    {
+        // テクスチャカラー取得
+        rgba = texture2D( uMultiTexture0, vTexCoord );
+    }
+
+    // カーラーデータ加算
+    rgba *= uColor;
+
+    // 色データセット
+    gl_FragColor = rgba;
+
+}
